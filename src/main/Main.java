@@ -24,10 +24,10 @@ public class Main {
         test.addConnection(duesseldorf,wuppertal);
         test.addConnection(duesseldorf,koeln);
         test.addConnection(haan,solingen);
-        test.addConnection(wuppertal,solingen);
-        test.addConnection(koeln,frankfurt);
+        test.addConnection(solingen,wuppertal);
+        test.addConnection(frankfurt,koeln);
         test.addConnection(duesseldorf,venlo);
 
-        test.BFS(wuppertal);
+        test.DFS(wuppertal);
     }
 }
